@@ -1,1 +1,20 @@
-
+.Cookiebtn{
+    background-color: brown;
+    border-radius: 999999px;
+    border: none;
+    height: 400px;
+    aspect-ratio: 1/1;
+    transition: height .2s;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Cookiebtn:hover{
+    height: 420px;
+    
+}
+.Cookiebtn:active{
+    height: 410px;
+    transition: none;
+}
