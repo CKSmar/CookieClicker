@@ -1,20 +1,39 @@
 .Cookiebtn{
-    background-color: brown;
+    background-color: rgb(122, 49, 49);
     border-radius: 999999px;
     border: none;
     height: 400px;
     aspect-ratio: 1/1;
-    transition: height .2s;
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transition: height .2s,background-color .2s;
+
 }
 .Cookiebtn:hover{
     height: 420px;
-    
+    background-color: black;
 }
 .Cookiebtn:active{
     height: 410px;
     transition: none;
+}
+.Counter{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color:gold;
+    display: flex;
+    justify-content: center;
+}
+.Bigdiv{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name{
+    display:flex;
+    justify-content: center;
 }
