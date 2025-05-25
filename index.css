@@ -1,18 +1,37 @@
+body{
+    background-color: blue;
+    color: antiquewhite;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    padding: 0%;
+    margin: 0px;
+    height: 1000px;
+    overflow-y: hidden;
+}
+
 .Cookiebtn{
-    background-color: rgb(122, 49, 49);
+    background-color:transparent;
     border-radius: 999999px;
     border: none;
-    height: 400px;
-    aspect-ratio: 1/1;
-    transition: height .2s,background-color .2s;
-
+    height: 300px;
+    width: 300px;
+    transition: all .2s;
+    background-image: url("cookieImage.png");
+    background-size: 180%;
+    background-position: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
 }
 .Cookiebtn:hover{
-    height: 420px;
+    height: 320px;
+    width: 320px;
     background-color: black;
 }
 .Cookiebtn:active{
-    height: 410px;
+    height: 310px;
+    width: 310px;
     transition: none;
 }
 .Counter{
@@ -26,14 +45,31 @@
 .Bigdiv{
     display:flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:center;
+    height: 100%;
+    
 }
 .leftside{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
+}
+.middle{
+    text-align: center;
+    border-width: 0px;
+    border-right-width: 20px ;
+    border-color: black;
+    border-style: solid;
+    border-left-width: 20px;
+}
+.rightSide{
+    text-align: center;
 }
 .name{
     display:flex;
     justify-content: center;
+}
+.Bigdiv div{
+    width: 33%;
+    padding: 0px 10px;
 }
