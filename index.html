@@ -9,7 +9,7 @@
 <body>
     <div class="Bigdiv">
         <div class="leftside">
-            <p class="name">POOPDOOPLAB</p>
+            <input id="name" type="text" placeholder="PoopDoopLab">
             <p id="Counter" class="Counter">0</p>
             <button id="Cookiebtn" class="Cookiebtn"></button>
         </div>
@@ -17,20 +17,23 @@
             <p>Stats</p>
             <div>
                 <p>stick stats</p>
-                <p id="numberOfSticks">number of sticks</p>
-                <p id="amountMadeBySticks">amount made </p>
-                <p id="productionMadeBySticks">how much its making</p>
+                <p>number of sticks <span id="numberOfSticks">0</span></p>
+                <p >amount made <span id="amountMadeBySticks">0</span></p>
+                <p>how much its making <span id="productionMadeBySticks">0</span>cps</p>
                 <!--name number of shopping item total amount made from item percentage of what is being made is from that item-->
                 
             </div>
         </div>
         <div class="rightSide">
-            <p>Shopping</p>
-            <button id="stickBtn" class="rightSideOptionsbtn">
+            <p id="shoppingListEl">Shopping</p>
+            <button id="upgradesBtn">Upgrades</button>
+            <div id="shoppingDiv">
+                <button id="stickBtn" class="rightSideOptionsbtn">
                 <img src="" alt="oopsiepoopsie">
                 <p>Stick</p>
                 <p id="stickPriceEl">15</p>
             </button>
+            </div>
             
 
         </div>

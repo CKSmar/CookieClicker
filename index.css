@@ -107,3 +107,17 @@ button{
     width: 100%;
     
 }
+#name{
+    font-family: sans-serif;
+    background-color: transparent;
+    font-size: large;
+    border-width: 0px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+#name::placeholder{
+    color: white;
+    text-align: center;
+}
